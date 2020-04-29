@@ -7,7 +7,7 @@ const Toggle = () => {
 	return (
 		<div>
 			<button onClick={toggle}>Toggle</button>
-			{isToggled && <p>To be toggled</p>}
+			{isToggled && <p>Hi, I'm being toggled!</p>}
 		</div>
 	)
 }
