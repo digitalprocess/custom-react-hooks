@@ -8,8 +8,9 @@ import black from "./black.png";
 import green from "./green.png";
 
 import Inc from './components/Inc'
-import Toggle from './components/Toggle'
 import Mount from './components/Mount'
+import Hover from './components/Hover'
+import Toggle from './components/Toggle'
 
 function App() {
 	return (
@@ -20,9 +21,12 @@ function App() {
 			</Header>
 			<Container>
 				<h2>Super Cool</h2>
+
 				<Toggle />
 				<Inc />
 				<Mount />
+				<Hover />
+
 				<CardGrid>
 					<Card style={{ background: "var(--purp)" }}>
 						<h3>Some card</h3>
