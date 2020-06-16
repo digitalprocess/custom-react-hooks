@@ -9,12 +9,12 @@ import purp from "./purp.png"
 import black from "./black.png"
 import green from "./green.png"
 
-import Nav from "./components/Nav"
+import Nav from './components/Nav'
 import Inc from './components/Inc'
 import Mount from './components/Mount'
 import Hover from './components/Hover'
 import Toggle from './components/Toggle'
-import PageWrapper from './components/PageWrapper'
+import {PageWrapper} from './state'
 
 function App() {
 	return (
@@ -27,12 +27,10 @@ function App() {
 				<Nav />
 				<Container>
 					<h2>Super Cool</h2>
-
 					<Toggle />
 					<Inc />
 					<Mount />
 					<Hover />
-
 					<CardGrid>
 						<Card style={{ background: "var(--purp)" }}>
 							<h3>Some card</h3>
