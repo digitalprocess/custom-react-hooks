@@ -28,4 +28,4 @@ const Menu = () => {
 		</button>
 )};
 
-export default Menu;
+export default Menu

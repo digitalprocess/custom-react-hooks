@@ -3,6 +3,8 @@ import { Card, CardGrid, Container, Header } from "./Elements"
 
 import "./App.css"
 
+import {PageWrapper} from './state'
+
 import Menu from "./Menu"
 import blue from "./blue.png"
 import purp from "./purp.png"
@@ -14,7 +16,7 @@ import Inc from './components/Inc'
 import Mount from './components/Mount'
 import Hover from './components/Hover'
 import Toggle from './components/Toggle'
-import {PageWrapper} from './state'
+import Cookie from './components/Cookie'
 
 function App() {
 	return (
@@ -30,6 +32,7 @@ function App() {
 					<Toggle />
 					<Inc />
 					<Mount />
+					<Cookie />
 					<Hover />
 					<CardGrid>
 						<Card style={{ background: "var(--purp)" }}>
