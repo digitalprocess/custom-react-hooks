@@ -17,6 +17,7 @@ import Mount from './components/Mount'
 import Hover from './components/Hover'
 import Toggle from './components/Toggle'
 import Cookie from './components/Cookie'
+import Script from './components/Script'
 
 function App() {
 	return (
@@ -53,6 +54,7 @@ function App() {
 						</Card>
 					</CardGrid>
 				</Container>
+				<Script src='https://www.google.com/recaptcha/api.js' />
 			</div>
 		</PageWrapper>
 	)
