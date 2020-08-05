@@ -8,9 +8,10 @@ export const useWindowWidth = () => {
 		window.addEventListener('resize', handleResize)
 
 		// cleanup
-		return () => window.removeEventListener('resize', handleResize)
+		return () => {
+			window.removeEventListener('resize', handleResize)
+		}
 	}, [])
 
 	return width
 }
-
