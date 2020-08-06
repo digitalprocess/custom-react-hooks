@@ -17,6 +17,7 @@ import Mount from './components/Mount'
 import Hover from './components/Hover'
 import Toggle from './components/Toggle'
 import Cookie from './components/Cookie'
+import Local from './components/Local'
 import Script from './components/Script'
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
 					<Inc />
 					<Mount />
 					<Cookie />
+					<Local />
 					<Hover />
 					<CardGrid>
 						<Card style={{ background: "var(--purp)" }}>

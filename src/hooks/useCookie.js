@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Cookies from 'js-cookie'
 
-export const useCookie = ({ key }) => {
+export const useCookies = ({ key }) => {
 	const initial = Cookies.get(key)
 	const [cookie, setStateCookie] = useState(initial)
 
