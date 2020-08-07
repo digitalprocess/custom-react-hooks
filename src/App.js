@@ -13,11 +13,12 @@ import green from "./green.png"
 
 import Nav from './components/Nav'
 import Inc from './components/Inc'
+import Local from './components/Local'
+import Theme from './components/Theme'
 import Mount from './components/Mount'
 import Hover from './components/Hover'
 import Toggle from './components/Toggle'
 import Cookie from './components/Cookie'
-import Local from './components/Local'
 import Script from './components/Script'
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
 				<Nav />
 				<Container>
 					<h2>Super Cool</h2>
+					<Theme />
 					<Toggle />
 					<Inc />
 					<Mount />
