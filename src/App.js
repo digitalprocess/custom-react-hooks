@@ -1,4 +1,3 @@
-import React from "react"
 import { Card, CardGrid, Container, Header } from "./Elements"
 
 import "./App.css"
@@ -21,7 +20,7 @@ import Toggle from './components/Toggle'
 import Cookie from './components/Cookie'
 import Script from './components/Script'
 
-function App() {
+export default function App() {
 	return (
 		<PageWrapper>
 			<div className="App">
@@ -63,5 +62,3 @@ function App() {
 		</PageWrapper>
 	)
 }
-
-export default App
